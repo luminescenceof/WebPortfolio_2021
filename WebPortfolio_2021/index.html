@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<title>Yerin's Portfolio</title>
+<link rel="stylesheet" href="css/ScrollTrigger.css"> <!--Data Scroll PlugIn-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+<link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+<!-- <p id="txt">0</p> --> <!--스크롤위치 파악하기-->
+
+<!--Top Popup Start-->  
+<div id="topbanner">    
+    <div class="pop_box_top">
+        <div class="pop_txt_top">
+            본 사이트는 크롬에 최적화 되어있습니다.
+        </div>
+    </div>
+    <div class="btn_close_top">
+        <a href="#"><span class="material-icons">highlight_off</span></a>
+    </div>  
+</div>
+<!--Top Popup End-->
+
+<!--TOP버튼-->
+<p class="topmove"><a href="#header" data-scroll><span class="indent">TOP</span></a></p>
+
+<!--오른쪽 퀵메뉴버튼-->
+<div class="quick_btn">
+	<ul>
+		<li class="btn1"><a href="#m1" data-scroll><span class="text_over">Webdesign</span><span class="dot"></span></a></li>
+		<li class="btn2"><a href="#m2" data-scroll><span class="text_over">Publishing</span><span class="dot"></span></a></li>
+        <li class="btn3"><a href="#m3" data-scroll><span class="text_over">Responsive</span><span class="dot"></span></a></li>
+        <li class="btn4"><a href="#m4" data-scroll><span class="text_over">Mobileweb</span><span class="dot"></span></a></li>
+        <li class="btn5"><a href="#m5" data-scroll><span class="text_over">Webplanning</span><span class="dot"></span></a></li>
+        <li class="btn6"><a href="#m6" data-scroll><span class="text_over">Profile</span><span class="dot"></span></a></li>
+	</ul>
+</div>
+
+
+<header id="header"> 
+    <div class="header_in clear">
+    	<div class="logo_area">
+            <h1><img src="image/bk_logo.png" alt="YR LOGO"></h1>
+        </div>
+
+
+        <!--스크롤바 내릴때 내려오는 고정탑메뉴-->
+        <div class="topmenu_fix"> 
+            <div class="topmenu_fix_in">
+            	<div class="logo_area_fix">
+	                <h1><img src="image/bk_logo.png" alt="YR LOGO"></h1>
+	            </div>
+	            <div class="gnb_area_fix">
+	                <ul class="menu">
+	                    <li><a href="#m1" data-scroll>WEBDESIGN</a><span></span></li>
+	                    <li><a href="#m2" data-scroll>WEBPUBLISHING</a><span></span></li>
+	                    <li><a href="#m3" data-scroll>RESPONSIVEWEB</a><span></span></li>
+	                    <li><a href="#m4" data-scroll>MOBILEWEB</a><span></span></li>
+	                    <li><a href="#m5" data-scroll>WEBPLANNING</a><span></span></li>
+                        <li><a href="#m6" data-scroll>PROFILE</a><span></span></li>
+	                </ul>
+	            </div>
+            </div>
+        </div>
+
+        <div id="m0"> 
+            <div class="m0_in" data-scroll="toggle(.scaleUpIn, .scaleUpOut) addHeight">
+                <h2>안녕하세요 <span>감각있는</span> 웹퍼블리셔 김예린입니다.</h2>
+                <h3 id="typing1">Welcome to <span>Yerin's</span> Portfolio</h3>
+                <!-- <h4>Web Standard &amp; Web Responsive/Display your web design in a web browser</h4> -->
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<!-- 컨텐츠전체 시작 -->
+<div id="wrap">
+
+
+    <!-- Webdesign영역 -->
+    <div id="m1">
+        <div class="m1_in clear">
+        	<h5>WEBDESIGN</h5>
+            <!--탭메뉴-->
+            <ul class="tab">
+                <li data-scroll="toggle(.fromRightIn, .fromRightOut) addHeight"><a href="#graphic" class="selected">GRAPHIC</a></li>
+                <li data-scroll="toggle(.fromRightIn, .fromRightOut) addHeight"><a href="#uiux">UI/UX</a></li>
+            </ul>
+
+            <!--탭메뉴 클릭시 바뀌는 하단내용-->
+            <ul class="panel">
+                <li id="graphic">
+                    <ul class="graphic_list clear">
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_1.png" alt=""><span>ARTWORK</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_2.png" alt=""><span>POSTER</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_3.png" alt=""><span>PROMOTION</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_4.png" alt=""><span>BANNER</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_5.png" alt=""><span>EVENT</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_6.png" alt=""><span>POP-UP</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_7.png" alt=""><span>POP-UP</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_8.png" alt=""><span>POP-UP</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_9.png" alt=""><span>DIARY</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_10.png" alt=""><span>ILLUST</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_11.png" alt=""><span>3D DESIGN</span></a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" onclick="return false"><img src="image/graphic_12.png" alt=""><span>CHARACTER</span></a>
+                        </li> -->
+                    </ul>
+
+                    <div id="popup" > <!--popup_box-->
+                        <div class="pop_body clear">
+                            <ul class="pop">
+                                <li><p><img src="image/graphic_m1.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m2.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m3.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m4.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m5.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m6.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m7.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m8.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m9.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m10.png" alt=""></p></li>
+                                <li><p><img src="image/graphic_m11.png" alt=""></p></li>
+                               <!--  <li><p><img src="image/graphic_m12.png" alt=""></p></li> -->
+                            </ul>
+                            
+                            <!-- 버튼(좌우+close) -->
+                            <ul class="m_btn">
+                                <li class="btn_close"><i class="material-icons">clear</i></li>
+                                <li class="left_btn"><i class="material-icons">keyboard_arrow_left</i></li>
+                                <li class="right_btn"><i class="material-icons">keyboard_arrow_right</i></li>
+                                <li class="g_page"><span>1</span> / <span>11</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="uiux">
+                    <ul class="uiux_list clear">
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_1.png" alt=""><span>LE LABO</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_2.png" alt=""><span>OATLY</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_3.png" alt=""><span>LULULEMON</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_4.png" alt=""><span>LG U+</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_5.png" alt=""><span>BOKSUNDOGA</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_6.png" alt=""><span>HOSPITAL</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_7.png" alt=""><span>FOOD</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_8.png" alt=""><span>RESPONSIVE</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_9.png" alt=""><span>MOBILE APP</span></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false"><img src="image/uiux_10.png" alt=""><span>MOBILE MAIN</span></a>
+                        </li>
+                    </ul>
+
+                    <div id="popup_ui"> <!--popup_box-->
+                        <div class="pop_body_ui clear">
+                            <ul class="pop_ui">
+                                <li><p><img src="image/uiux_m1.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m2.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m3.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m4.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m5.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m6.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m7.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m8.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m9.png" alt=""></p></li>
+                                <li><p><img src="image/uiux_m10.png" alt=""></p></li>
+                            </ul>
+                            
+                            <!-- 버튼(좌우+close) -->
+                            <ul class="m_btn_ui">
+                                <li class="btn_close_ui"><i class="material-icons">clear</i></li>
+                                <li class="left_btn_ui"><i class="material-icons">keyboard_arrow_left</i></li>
+                                <li class="right_btn_ui"><i class="material-icons">keyboard_arrow_right</i></li>
+                                <li class="g_page_ui"><span>1</span> / <span>10</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Webpublishing영역 -->
+    <div id="m2">
+        <div class="m2_in">
+        	<h5>WEBPUBLISHING</h5>
+            <div class="content_m2 clear">
+
+                <div class="m2_pc_slide" data-scroll="toggle(.fromLeftIn, .fromLeftOut) addHeight">
+                    <div class="pc_m2">
+                        <img src="image/pc_m2.png" alt="imac">
+                    <!-- pc 스크린 슬라이드-->
+                        <div class="pc_screen_m2">
+                            <ul class="clear">         
+                                <li class="s1"><img src="image/siggis_web.png" alt="siggis"></li>
+                                <li class="s2"><img src="image/kara_web.png" alt="kara"></li>
+                                <li class="s3"><img src="image/openyoureyes_web.png" alt="openyoureyes"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <!-- 오른쪽 설명글 -->
+                <div class="m2_txt_slide">
+                    <div class="slide_m2_info">
+                        <ul class="clear">
+                            <li class="s1_info">
+                                <div class="m2_tt">SIGGI'S</div>
+                                <h6>기업체 웹사이트 디자인 및 퍼블리싱</h6>
+                                <span>Main + 5 Sub Page</span>
+                                <ul class="s1_details">
+                                    <li><span>Tool</span> HTML, CSS, JQuery, Photoshop, Illustrator</li>
+                                    <li><span>Work Period</span> 2021.04.21 - 2021.05.01</li>
+                                    <li class="s1_pw_100"><span>100% Personal Work</span></li>
+                                </ul>
+
+                                <!-- 디테일 사이트 버튼 -->
+                                <div class="detail_btn">
+                                    <a href="#" class="menu_sg">Detail</a>
+                                    <div class="pop_sg"><!--팝업창부분-->
+                                        <div class="c1_sg">
+                                            <img src="image/detail_siggis.png" alt="">
+                                        </div>
+                                        <a href="#" class="close_sg" onclick="return false">close</a>
+                                    </div>
+                                </div>
+                                <div class="enter_site">
+                                    <a href="http://rini0626.dothome.co.kr/" title="siggis_web" target="_blank">Enter Site</a>
+                                </div>
+                            </li>
+                            <li class="s2_info">
+                                <div class="m2_tt">KARA</div>
+                                <h6>Onepage 웹사이트 디자인 및 퍼블리싱</h6>
+                                <span>Main Page</span>
+                                <ul class="s2_details">
+                                    <li><span>Tool</span> HTML, CSS, Photoshop, Illustrator</li>
+                                    <li><span>Work Period</span> 2021.04.05 - 2021.04.09</li>
+                                    <li class="s2_pw_100"><span>100% Personal Work</span></li>
+                                </ul>
+                                <!-- 디테일 사이트 버튼 -->
+                                <div class="detail_btn">
+                                    <a href="#" class="menu_kr">Detail</a>
+                                    <div class="pop_kr"><!--팝업창부분-->
+                                        <div class="c1_kr">
+                                            <img src="image/detail_kara.png" alt="">
+                                        </div>
+                                        <a href="#" class="close_kr" onclick="return false">close</a>
+                                    </div>
+                                </div>
+                                <div class="enter_site">
+                                    <a href="http://yerini0619.dothome.co.kr/kara/main.html" title="kara_web" target="_blank">Enter Site</a>
+                                </div>
+                            </li>
+                            <li class="s3_info clear">
+                                <div class="m3_tt">눈을떠요안과</div>
+                                <h6>자유주제 웹사이트 디자인 및 퍼블리싱</h6>
+                                <span>Main Page</span>
+                                <ul class="s3_details">
+                                    <li><span>Tool</span> HTML, CSS, JQuery, Photoshop, Illustrator</li>
+                                    <li><span>Work Period</span> 2021.04.12 - 2021.04.16</li>
+                                    <li class="s3_pw_100"><span>100% Personal Work</span></li>
+                                </ul>
+                                 <!-- 디테일 사이트 버튼 -->
+                                <div class="detail_btn">
+                                    <a href="#" class="menu_op">Detail</a>
+                                    <div class="pop_op"><!--팝업창부분-->
+                                        <div class="c1_op">
+                                            <img src="image/detail_open.png" alt="">
+                                        </div>
+                                        <a href="#" class="close_op" onclick="return false">close</a>
+                                    </div>
+                                </div>
+                                <div class="enter_site">
+                                    <a href="http://yerini0619.dothome.co.kr/openyoureyes/main.html" title="openyoureyes_web" target="_blank">Enter Site</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                    <!-- 상단 숫자 버튼 -->
+                <div class="m2_slide_number">
+                    <div class="slide_btn_m2">
+                         <ul class="clear">
+                            <li class="active_m2">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ResponsiveWeb영역 -->
+    <div id="m3">
+        <div class="m3_in">
+            <h5>RESPONSIVEWEB</h5>
+            <ul class="clear">
+                <li class="m3_img">
+                    <div data-scroll="toggle(.fromBottomIn, .fromBottomOut) addHeight">
+                        <p class="m3_web"><img src="image/pc_m2.png" alt="반응형기기"></p>
+                        <p class="m3_tb"><img src="image/tablet_m3.png" alt="반응형기기"></p>
+                        <p class="m3_mb"><img src="image/mobile_m3.png" alt="반응형기기"></p>
+
+                        <div class="respon_pc">
+                            <img src="image/applemusic_web.png" alt="webver">
+                        </div>
+                        <div class="respon_tablet">
+                            <img src="image/applemusic_tablet.png" alt="tabletver">
+                        </div>
+                         <div class="respon_mobile">
+                            <img src="image/applemusic_mobile.png" alt="mobiletver">
+                        </div>
+                    </div>
+                </li>
+                <li class="m3_txt">
+                    <div class="m3_info clear">
+                        <div class="res_logo">
+                            <img src="image/applemusic_logo.png" alt="applemusic_logo">
+                        </div>
+                        <h6>반응형 웹 디자인 및 퍼블리싱</h6>
+                        <span>Main Page</span>
+                        <ul class="m3_details">
+                            <li><span>Tool</span> HTML, CSS, JQuery, Photoshop, Illustrator</li>
+                            <li><span>Work Period</span> 2021.05.04 - 2021.05.10</li>
+                            <li class="m3_pw_100"><span>100% Personal Work</span></li>
+                        </ul>
+                         
+                         <!-- 사이트 버튼 -->
+                       <div id="popup_respon"> 
+                            <ul>
+                                <li>
+                                    <a href="http://yerini0619.dothome.co.kr/applemusic/main.html" target="_blank">PC View</a>   
+                                </li>
+                                <li>
+                                    <a href="#" class="btn_view">Tablet View</a>
+                                    <div class="pop_view"><!--팝업창부분-->
+                                        <div class="c1_view">
+                                            <iframe src="http://yerini0619.dothome.co.kr/applemusic/main.html" width="768px" height="795px" frameborder="0"></iframe>
+                                        </div>
+                                        <a href="#" class="close_view" onclick="return false">close</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn_view">Mobile View</a>
+                                    <div class="pop_view"><!--팝업창부분-->
+                                        <div class="c2_view">
+                                            <iframe src="http://yerini0619.dothome.co.kr/applemusic/main.html" width="377px" height="615px" frameborder="0"></iframe>
+                                        </div>
+                                        <a href="#" class="close_view" onclick="return false">close</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Mobileweb영역 -->
+    <div id="m4">
+        <div class="m4_in">
+            <h5>MOBILEWEB</h5>
+            <div id="slideShowUp"> 
+
+                <div class="slideUp">   <!-- 메인슬라이드이미지 -->
+                    <ul class="content_m4"> 
+                           <!-- 캐롤 -->
+                        <li class="clear">
+                            <div class="left_m4" data-scroll="toggle(.scaleUpIn, .scaleUpOut) addHeight">
+                                <img src="image/carol_bg.png" alt="bg">
+                                <ul>
+                                    <li><img src="image/mobile_carol.png" alt="phone"></li>
+                                    <li class="hover_img_carol"><img src="image/mobile_carol_hover.png" alt="phone"></li>
+                                </ul>
+                            </div>
+                            <div class="right_m4">
+                                <p>CAROL</p>
+                                <div class="info_m4">
+                                    <h6>영화 '캐롤' 모바일 기획 및 디자인</h6>
+                                    <span>Main 3 Page</span>
+                                    <ul class="details_m4">
+                                        <!-- <li>Main + 5 Sub Page</li> -->
+                                        <li><span>Tool</span>Photoshop, Illustrator</li>
+                                        <li><span>Work Period</span> 2021.04.29 - 2021.04.30</li>
+                                        <li class="pw_100"><span>100% Personal Work</span></li>
+                                    </ul>
+                                    <!-- 디테일 사이트 버튼 -->
+                                    <div class="detail_btn_m4">
+                                        <a href="#" class="menu_cr">Detail</a>
+                                        <div class="pop_cr"><!--팝업창부분-->
+                                            <div class="c1_cr">
+                                                <img src="image/uiux_m10.png" alt="">
+                                            </div>
+                                            <a href="#" class="close_cr" onclick="return false">close</a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="enter_site">
+                                        <a href="#" title="kara_web" target="_blank">Enter Site</a>
+                                    </div> -->
+
+                                </div>
+                            </div>
+                        </li> 
+
+                        <!-- 교보문고 -->
+                        <li>
+                            <div class="left_m4_2">
+                                <ul>
+                                    <li><img src="image/mobile_kyobo.png" alt="phone"></li>
+                                    <li class="hover_img_kyobo"><img src="image/mobile_kyobo_hover.png" alt="phone"></li>
+                                </ul>
+                            </div>
+                            <div class="right_m4_2">
+                                <p><img src="image/kyobo_logo.png" alt="logo"></p>
+                                <div class="info_m4_2">
+                                    <h6>교보문고 모바일 기획 및 디자인</h6>
+                                    <span>Main + Sub Page</span>
+                                    <ul class="details_m4_2">
+                                        <!-- <li>Main + 5 Sub Page</li> -->
+                                        <li><span>Tool</span> Photoshop, Illustrator</li>
+                                        <li><span>Work Period</span> 2021.03.29 - 2021.04.04</li>
+                                        <li class="pw_100_2"><span>100% Personal Work</span></li>
+                                    </ul>
+                                    <!-- 디테일 버튼 -->
+                                    <div class="detail_btn_m4">
+                                        <a href="#" class="menu_kb">Detail</a>
+                                        <div class="pop_kb"><!--팝업창부분-->
+                                            <div class="c1_kb">
+                                                <img src="image/detail_kyobo.png" alt="">
+                                            </div>
+                                            <a href="#" class="close_kb" onclick="return false">close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>  
+                    </ul>
+                </div>
+
+                <!-- 숫자 버튼 -->
+                <div class="slideUp_btn">
+                     <ul class="clear">
+                        <li class="active">1</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Webplanning영역 -->
+    <div id="m5">
+        <div class="m5_in">
+            <h5>WEBPLANNING</h5>
+            
+             <!--탭메뉴-->
+            <ul class="tab_wp clear">
+                <li><a href="#tab_wp1" class="selected">비주얼 무드보드</a></li>
+                <li><a href="#tab_wp2">썸네일스케치</a></li>
+                <li><a href="#tab_wp3">와이어프레임</a></li>
+                <li><a href="#tab_wp4">스토리보드</a></li>
+                <li><a href="#tab_wp5">메타포아이콘 보고서</a></li>
+                <li><a href="#tab_wp6">트렌드적용 보고서</a></li>
+                <li><a href="#tab_wp7">컨셉도출 보고서</a></li>
+                <li><a href="#tab_wp8">프로젝트완료 보고서</a></li>
+            </ul>
+
+            <!--탭메뉴 클릭시 바뀌는 하단내용-->
+            <ul class="panel_wp">
+                <li id="tab_wp1">
+                    <div class="left_wp">
+                        <img src="image/visual_mood.png" alt="르라보비주얼무드보드">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_1.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_1">
+                                    <img src="image/uiux_m1.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp2">
+                    <div class="left_wp">
+                         <img src="image/thumbnail.png" alt="르라보썸네일">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_1.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_2">
+                                    <img src="image/uiux_m1.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp3">
+                    <div class="left_wp">
+                        <img src="image/wireframe.png" alt="카카오뱅크와이어프레임">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_8.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_3">
+                                    <img src="image/uiux_m8.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp4">
+                    <div class="left_wp">
+                        <img src="image/storyboard.png" alt="캐롤스토리보드">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_10.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_4">
+                                    <img src="image/uiux_m10.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp5">
+                    <div class="left_wp">
+                        <img src="image/metapo.png" alt="카카오뱅크메타포아이콘">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_8.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_5">
+                                    <img src="image/uiux_m8.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp6">
+                    <div class="left_wp">
+                        <img src="image/trend.png" alt="카카오뱅크트렌드조사">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_8.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_6">
+                                    <img src="image/uiux_m8.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp7">
+                    <div class="left_wp">
+                        <img src="image/concept.png" alt="카카오뱅크컨셉도출">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/uiux_8.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_7">
+                                    <img src="image/uiux_m8.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tab_wp8">
+                    <div class="left_wp">
+                        <img src="image/project.png" alt="시기스프로젝트보고서">
+                    </div>
+                    <div class="right_wp">
+                        <img src="image/siggis_imac.png" alt="">
+                         <!-- 디테일 사이트 버튼 -->
+                        <div class="detail_btn_m5">
+                            <a href="#" class="menu_m5">Detail</a>
+                            <div class="pop_m5"><!--팝업창부분-->
+                                <div class="m5_8">
+                                    <img src="image/detail_siggis.png" alt="">
+                                </div>
+                                <a href="#" class="close_m5" onclick="return false">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Profile영역 -->
+    <div id="m6">
+        <div class="m6_in">
+            <h5>PROFILE</h5>
+            <ul class="clear">
+                <li class="m6_me" data-scroll="toggle(.fromLeftIn, .fromLeftOut) addHeight">
+                    <p><img src="image/profile_me.png" alt="me"></p>
+                    <span>Kim Yerin</span>
+                </li>
+                <li class="m6_me_info" data-scroll="toggle(.fromRightIn, .fromRightOut) addHeight">
+                    <ul>
+                        <li>
+                            <div class="profile_tt">NAME <span> 김예린</span></div>
+                            <div class="profile_tt">BIRTH <span> 1996-12-07</span></div>
+                            <div class="profile_tt">PHONE <span> 010-5017-9547</span></div>
+                            <div class="profile_tt">EMAIL <span> kyl7410@naver.com</span></div>
+                        </li>
+                        <li>
+                            <div class="profile_tt">EDUCATION</div>
+                            <p><span class="bold">모바일 UI/UX 반응형 웹디자인 & 웹퍼블리셔</span><br>2021.01  ~ 2021.06 [700h]</p>
+                        </li>
+                        <li>
+                            <div class="profile_tt">LICENSE</div>
+                            <p>2016.10 &nbsp;전산회계 1급</p>
+                        </li>
+                        <li class="myskill">
+                            <div class="profile_tt">SKILL</div>
+                            <div class="skill_01">
+                                <span class="skill_name">Photoshop</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill_02">
+                                <span class="skill_name">Illustrator</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill_03">
+                                <span class="skill_name">HTML5</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill_04">
+                                <span class="skill_name">CSS3</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill_05">
+                                <span class="skill_name">JQuery</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill_06">
+                                <span class="skill_name">Office</span>
+                                <span class="skill_bar0">
+                                    <span class="skill_bar1"></span>
+                                </span>
+                                <span>85%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <!-- 문구는 아래에서 삽입한다 -->
+        <p class="foot_text" id="typing2"></p>
+        <address>Copyright &copy; 2021 <span class="bd">Yerin</span> All Rights Reserved.</address>
+    </footer>
+
+</div>
+
+
+<!-- Script Source -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/portfolio.js"></script>
+
+<!-- 특정위치 부드럽게이동 PlugIn -->
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<script> 
+    smoothScroll.init();
+</script>
+
+<!-- 타이핑글자 Plugin -->
+<script src="js/typeit.min.js"></script>
+<script>
+    window.instance = new TypeIt("#typing1", {
+        speed: 100
+      })
+        .type("")
+        .pause(500)
+        .delete(4)
+        .pause(500)
+        .type("ring.")
+        .pause(500)
+        .delete()
+        .pause(500)
+        .options({
+          speed: 25
+        })
+        .type("")
+        .go();
+
+        new TypeIt("#typing2", {
+        speed: 100,
+        strings:
+          "Thank you for watching :)",
+        waitUntilVisible: true,
+        loop: true
+      }).go();
+
+</script>
+
+
+<!--Data Scroll PlugIn-->
+<script src="js/ScrollTrigger.min.js"></script>
+<script>
+window.counter = function() {
+    // this refers to the html element with the data-scroll-showCallback tag
+    var span = this.querySelector('span');
+    var current = parseInt(span.textContent);
+    
+    span.textContent = current + 1;
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+  ScrollTrigger.init();
+});
+</script>
+
+
+</body>
+</html>
